@@ -110,30 +110,40 @@ public class MainActivity extends Activity implements TCPListener{
 		// TODO Auto-generated method stub
 		final String theMessage=message;
 		try {
-			JSONObject obj = new JSONObject(message);
-			String messageTypeString=obj.getString(EnumsAndStatics.MESSAGE_TYPE_FOR_JSON);
-			MessageTypes messageType = EnumsAndStatics.getMessageTypeByString(messageTypeString);
-			
-			switch(messageType)
-			{
+			if(message.length()>7 && message.charAt(0)=='{' && message.charAt(message.length()-1)=='}') {
+				JSONObject obj = new JSONObject(message);
+				String messageTypeString = obj.getString(EnumsAndStatics.MESSAGE_TYPE_FOR_JSON);
+				MessageTypes messageType = EnumsAndStatics.getMessageTypeByString(messageTypeString);
+				switch (messageType) {
 
-				case MessageFromServer:
-				{
-					
-					runOnUiThread(new Runnable() {
-						
-						@Override
-						public void run() {
-							// TODO Auto-generated method stub
-							EditText editTextFromServer =(EditText)findViewById(R.id.editTextFromServer);
-							editTextFromServer.setText(theMessage);
-						}
-					});
-				
-			    	break;
+					case MessageFromServer: {
+
+						runOnUiThread(new Runnable() {
+
+							@Override
+							public void run() {
+								// TODO Auto-generated method stub
+								EditText editTextFromServer = (EditText) findViewById(R.id.editTextFromServer);
+								editTextFromServer.setText(theMessage);
+							}
+						});
+
+						break;
+					}
+
 				}
-				 
-				
+
+			}
+			else{
+				runOnUiThread(new Runnable() {
+
+					@Override
+					public void run() {
+						// TODO Auto-generated method stub
+						EditText editTextFromServer = (EditText) findViewById(R.id.editTextFromServer);
+						editTextFromServer.setText("Not JSON message:"+theMessage);
+					}
+				});
 			}
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
