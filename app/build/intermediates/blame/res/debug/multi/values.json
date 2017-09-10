@@ -1,0 +1,209 @@
+[
+    {
+        "outputFile": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 19,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endLine": 5,
+                        "endColumn": 19,
+                        "endOffset": 189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endLine": 9,
+                    "endColumn": 23,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 195,
+                        "endLine": 9,
+                        "endColumn": 23,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 326,
+                    "endLine": 13,
+                    "endColumn": 19,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 5,
+                        "startOffset": 337,
+                        "endLine": 13,
+                        "endColumn": 19,
+                        "endOffset": 459
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 450,
+                    "endLine": 17,
+                    "endColumn": 19,
+                    "endOffset": 568
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/arrays.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 465,
+                        "endLine": 17,
+                        "endColumn": 19,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 573,
+                    "endColumn": 57,
+                    "endOffset": 626
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 631,
+                    "endColumn": 55,
+                    "endOffset": 682
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 687,
+                    "endColumn": 52,
+                    "endOffset": 735
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 52,
+                        "endOffset": 162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 740,
+                    "endColumn": 53,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 53,
+                        "endOffset": 108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 794,
+                    "endLine": 28,
+                    "endColumn": 12,
+                    "endOffset": 1080
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1085,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 1240
+                },
+                "from": {
+                    "file": "/home/mirsmok/AndroidStudioProjects/AndroidTCPClient/app/src/main/res/values/styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]
